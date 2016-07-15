@@ -1,0 +1,69 @@
+Volume of the mat. cut off in 1 minute Q
+=ROUND(IF(M9=0,0,IF(M81="Y",IF(OR(M9="S",M9="U",M9="Z"),(D64*D62*D67),IF(M9="F",(D66*D67*D68)/1000,
+ IF(M9="V",((D62*1000/D69/PI())*D64)*((PI()*(D69^2))/4/1000),
+ ((D62*1000/D69/PI())*D64)*((PI()*(D69^2-(D69-D67*2)^2))/4/1000)))),0)),1)
+
+q = 0 ;
+
+if($technology = "0")
+{
+    return 0;
+}else
+{
+    if($Competition = "Y")
+      {
+          if( ($technology = "S") or ($technology = "U") or ($technology = "Z")  )
+          {
+              q = $feed_rev * $cutting_speed * $Cutting_depth;
+          }
+
+          if($Competition = "F")
+          {
+              q = ($feed_min * $Cutting_depth * $Machined_surface_width) / 1000;
+          }
+      }
+
+       if($Competition = "V")
+       {
+          q = (( $cutting_speed*1000/ $thread_pitch / PI() ) * $feed )*((PI()*( $thread_pitch ^2)) /4/1000);
+       }else
+       {
+          q = (( $cutting_speed * 1000 / $thread_pitch / PI() ) * D64 )* ((PI()
+          * ( $thread_pitch ^2-(D69-D67*2)^2))/4/1000)));
+       }
+}
+
+
+M9 = technology
+M81 = Competition
+
+D62 = Cutting speed
+D67 = Cutting depth
+D64 = Feed_rev
+D66 = Feed_min
+D68 = Machined surface width
+D69 = Thread pitch [mm]
+M142 = Switch to calculate
+D90 = Durability
+M142 = Switch to calculate
+D90 = Durability
+D106 = No. of cutting edges
+D104 = Insert of cost
+D98 = No of inserts
+D96 = Tool cost
+
+D106 = No. of cutting edges
+D90 = Durability
+D106 = No. of cutting edges
+D104 = Insert of cost
+D98 = No of inserts
+D96 = Tool cost
+Cn =IF(M142="Y", IF( OR(D90=0,D106=0),0,(((D104/D106)*D98)+(D96/500))/D90),0)
+
+
+D98 = No of inserts
+D90 = Durability
+Cv = IF(M142="Y",IF(D90=0,0,((D86/60)*D98)/D90),0)
+
+
+Cm = =IF(M142="Y",($D$86/60)*D92,0)
