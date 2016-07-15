@@ -1,0 +1,34 @@
+Volume of the mat. cut off in 1 minute Q
+=ROUND(IF(M9=0,0,IF(M81="Y",IF(OR(M9="S",M9="U",M9="Z"),(D64*D62*D67),IF(M9="F",(D66*D67*D68)/1000,IF(M9="V",((D62*1000/D69/PI())*D64)*((PI()*(D69^2))/4/1000),((D62*1000/D69/PI())*D64)*((PI()*(D69^2-(D69-D67*2)^2))/4/1000)))),0)),1)
+
+
+M9 = technology
+M81 = Competition
+D64 = Feed
+D62 = Cutting speed
+D67 = Cutting depth
+D66 = Feed
+D67 = cutting Depth
+D68 = Machined surface width
+D69 = Thread pitch [mm]
+
+
+Cn
+ =IF(M142="Y",
+  IF( OR(D90=0,D106=0),0,(((D104/D106)*D98)+(D96/500))/D90),0)
+
+M142 = Switch to calculate
+D90 = Durability
+D106 = No. of cutting edges
+D104 = Insert of cost
+D98 = No of inserts
+D96 = Tool cost
+
+
+Cv = IF(M142="Y",IF(D90=0,0,((D86/60)*D98)/D90),0)
+
+M142 = Switch to calculate
+D90 = Durability
+
+
+Cm = =IF(M142="Y",($D$86/60)*D92,0)

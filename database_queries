@@ -1,0 +1,180 @@
+TRUNCATE ilptcrm.ilptcrm_evaluation;
+TRUNCATE ilptcrm.ilptcrm_cutting_conditions;
+TRUNCATE  ilptcrm.ilptcrm_machined_part;
+TRUNCATE  ilptcrm.ilptcrm_tool;
+TRUNCATE  ilptcrm.ilptcrm_spending;
+TRUNCATE ilptcrm.ilptcrm_testreport ;
+
+
+ALTER TABLE ilptcrm.ilptcrm_testreport AUTO_INCREMENT = 1;
+ALTER TABLE ilptcrm.ilptcrm_evaluation AUTO_INCREMENT = 1;
+ALTER TABLE ilptcrm.ilptcrm_cutting_conditions AUTO_INCREMENT = 1;
+ALTER TABLE ilptcrm.ilptcrm_machined_part AUTO_INCREMENT = 1;
+ALTER TABLE ilptcrm.ilptcrm_tool AUTO_INCREMENT = 1;
+ALTER TABLE ilptcrm.ilptcrm_spending AUTO_INCREMENT = 1;
+
+
+
+INSERT INTO `ilptcrm`.`ilptcrm_testreport` (`id`, `customer`, `name`, `date`, `dealer`, `place`, `technology`) VALUES ('1', '1', '1', '1', '1', '1', '1');
+INSERT INTO `ilptcrm`.`ilptcrm_testreport` (`id`, `customer`, `name`, `date`, `dealer`, `place`, `technology`) VALUES ('2', '2', '2', '2', '2', '2', '2');
+INSERT INTO `ilptcrm`.`ilptcrm_testreport` (`id`, `customer`, `name`, `date`, `dealer`, `place`, `technology`) VALUES ('3', '3', '3', '3', '3', '3', '3');
+
+
+INSERT INTO `ilptcrm`.`ilptcrm_tool` (`id`, `producer1`, `producer2`, `description1`, `description2`, `cutting_index_insert1`, `cutting_index_insert2`, `chip_breaker1`, `chip_breaker2`, `grade1`, `grade2`, `cutting_speed1`, `cutting_speed2`, `revolution_rpm1`, `revolution_rpm2`, `feed_rev1`, `feed_rev2`, `feed_tooth1`, `feed_tooth2`, `feed_min1`, `feed_min2`) VALUES ('1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1');
+INSERT INTO `ilptcrm`.`ilptcrm_tool` (`id`, `producer1`, `producer2`, `description1`, `description2`, `cutting_index_insert1`, `cutting_index_insert2`, `chip_breaker1`, `chip_breaker2`, `grade1`, `grade2`, `cutting_speed1`, `cutting_speed2`, `revolution_rpm1`, `revolution_rpm2`, `feed_rev1`, `feed_rev2`, `feed_tooth1`, `feed_tooth2`, `feed_min1`, `feed_min2`) VALUES ('2', '2', '2', '2', '4', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2');
+INSERT INTO `ilptcrm`.`ilptcrm_tool` (`id`, `producer1`, `producer2`, `description1`, `description2`, `cutting_index_insert1`, `cutting_index_insert2`, `chip_breaker1`, `chip_breaker2`, `grade1`, `grade2`, `cutting_speed1`, `cutting_speed2`, `revolution_rpm1`, `revolution_rpm2`, `feed_rev1`, `feed_rev2`, `feed_tooth1`, `feed_tooth2`, `feed_min1`, `feed_min2`) VALUES ('3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3');
+
+
+INSERT INTO `ilptcrm`.`ilptcrm_machined_part` (`id`, `type`, `load_mp`, `techn_conditions`, `name_mp`, `requested_roughness`, `workpiece`, `group_mp`, `strength`, `hardness_hb`, `hardness_hrc`, `application_description`) VALUES ('1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1');
+INSERT INTO `ilptcrm`.`ilptcrm_machined_part` (`id`, `type`, `load_mp`, `techn_conditions`, `name_mp`, `requested_roughness`, `workpiece`, `group_mp`, `strength`, `hardness_hb`, `hardness_hrc`, `application_description`) VALUES ('2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2');
+INSERT INTO `ilptcrm`.`ilptcrm_machined_part` (`id`, `type`, `load_mp`, `techn_conditions`, `name_mp`, `requested_roughness`, `workpiece`, `group_mp`, `strength`, `hardness_hb`, `hardness_hrc`, `application_description`) VALUES ('3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3');
+
+
+INSERT INTO `ilptcrm`.`ilptcrm_cutting_conditions` (`id`, `cutting_depth1`, `cutting_depth2`, `machine_surface_width1`, `machine_surface_width2`, `thread_pitch1`, `thread_pitch2`, `number_of_infeed1`, `number_of_infeed2`, `cutting_length1`, `cutting_length2`, `depth_of_grooving1`, `depth_of_grooving2`, `surface_skin1`, `surface_skin2`, `Interrupted_cut1`, `Interrupted_cut2`, `coolant1`, `coolant2`, `surface_quality1`, `surface_quality2`) VALUES ('1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1');
+INSERT INTO `ilptcrm`.`ilptcrm_cutting_conditions` (`id`, `cutting_depth1`, `cutting_depth2`, `machine_surface_width1`, `machine_surface_width2`, `thread_pitch1`, `thread_pitch2`, `number_of_infeed1`, `number_of_infeed2`, `cutting_length1`, `cutting_length2`, `depth_of_grooving1`, `depth_of_grooving2`, `surface_skin1`, `surface_skin2`, `Interrupted_cut1`, `Interrupted_cut2`, `coolant1`, `coolant2`, `surface_quality1`, `surface_quality2`) VALUES ('2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2');
+INSERT INTO `ilptcrm`.`ilptcrm_cutting_conditions` (`id`, `cutting_depth1`, `cutting_depth2`, `machine_surface_width1`, `machine_surface_width2`, `thread_pitch1`, `thread_pitch2`, `number_of_infeed1`, `number_of_infeed2`, `cutting_length1`, `cutting_length2`, `depth_of_grooving1`, `depth_of_grooving2`, `surface_skin1`, `surface_skin2`, `Interrupted_cut1`, `Interrupted_cut2`, `coolant1`, `coolant2`, `surface_quality1`, `surface_quality2`) VALUES ('3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3');
+
+
+INSERT INTO `ilptcrm`.`ilptcrm_evaluation` (`id`, `durability_of_edge1`, `durability_of_edge2`, `durability_pcs1`, `durability_pcs2`, `flank_wear1`, `flank_wear2`, `insert_fracture_fragile1`, `insert_fracture_fragile2`, `built_up_edge1`, `built_up_edge2`, `nose_tip_plastic_deformation1`, `nose_tip_plastic_deformation2`, `kind_of_chip1`, `kind_of_chip2`, `rigidity_of_system1`, `rigidity_of_system2`, `notes`) VALUES ('1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1');
+INSERT INTO `ilptcrm`.`ilptcrm_evaluation` (`id`, `durability_of_edge1`, `durability_of_edge2`, `durability_pcs1`, `durability_pcs2`, `flank_wear1`, `flank_wear2`, `insert_fracture_fragile1`, `insert_fracture_fragile2`, `built_up_edge1`, `built_up_edge2`, `nose_tip_plastic_deformation1`, `nose_tip_plastic_deformation2`, `kind_of_chip1`, `kind_of_chip2`, `rigidity_of_system1`, `rigidity_of_system2`, `notes`) VALUES ('2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2');
+INSERT INTO `ilptcrm`.`ilptcrm_evaluation` (`id`, `durability_of_edge1`, `durability_of_edge2`, `durability_pcs1`, `durability_pcs2`, `flank_wear1`, `flank_wear2`, `insert_fracture_fragile1`, `insert_fracture_fragile2`, `built_up_edge1`, `built_up_edge2`, `nose_tip_plastic_deformation1`, `nose_tip_plastic_deformation2`, `kind_of_chip1`, `kind_of_chip2`, `rigidity_of_system1`, `rigidity_of_system2`, `notes`) VALUES ('3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3');
+
+
+INSERT INTO `ilptcrm`.`ilptcrm_spending` (`id`, `report`, `cost_per_hour`, `work_pcs`, `durability_of_edge1`, `durability_of_edge2`, `durability_pcs1`, `durability_pcs2`, `machine_time1`, `machine_time2`, `tool1`, `tool2`, `tool_cost1`, `tool_cost2`, `no_of_inserts1`, `no_of_inserts2`, `cutting_index_insert1`, `cutting_index_insert2`, `grade1`, `grade2`, `insert_of_cost1`, `insert_of_cost2`, `no_of_cutting_edges1`, `no_of_cutting_edges2`, `tool_cost_cn1`, `tool_cost_cn2`, `tool_exchange_cost1`, `tool_exchange_cost2`, `machining_cost1`, `machining_cost2`, `savings`) VALUES ('1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1');
+INSERT INTO `ilptcrm`.`ilptcrm_spending` (`id`, `report`, `cost_per_hour`, `work_pcs`, `durability_of_edge1`, `durability_of_edge2`, `durability_pcs1`, `durability_pcs2`, `machine_time1`, `machine_time2`, `tool1`, `tool2`, `tool_cost1`, `tool_cost2`, `no_of_inserts1`, `no_of_inserts2`, `cutting_index_insert1`, `cutting_index_insert2`, `grade1`, `grade2`, `insert_of_cost1`, `insert_of_cost2`, `no_of_cutting_edges1`, `no_of_cutting_edges2`, `tool_cost_cn1`, `tool_cost_cn2`, `tool_exchange_cost1`, `tool_exchange_cost2`, `machining_cost1`, `machining_cost2`, `savings`) VALUES ('2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2', '2');
+INSERT INTO `ilptcrm`.`ilptcrm_spending` (`id`, `report`, `cost_per_hour`, `work_pcs`, `durability_of_edge1`, `durability_of_edge2`, `durability_pcs1`, `durability_pcs2`, `machine_time1`, `machine_time2`, `tool1`, `tool2`, `tool_cost1`, `tool_cost2`, `no_of_inserts1`, `no_of_inserts2`, `cutting_index_insert1`, `cutting_index_insert2`, `grade1`, `grade2`, `insert_of_cost1`, `insert_of_cost2`, `no_of_cutting_edges1`, `no_of_cutting_edges2`, `tool_cost_cn1`, `tool_cost_cn2`, `tool_exchange_cost1`, `tool_exchange_cost2`, `machining_cost1`, `machining_cost2`, `savings`) VALUES  ('3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3', '3');
+
+
+SELECT COUNT(*)  from  ilptcrm.ilptcrm_testreport ;
+SELECT COUNT(*)  from ilptcrm.ilptcrm_evaluation;
+SELECT COUNT(*)  from ilptcrm.ilptcrm_cutting_conditions;
+SELECT COUNT(*)  from ilptcrm.ilptcrm_evaluation;
+SELECT COUNT(*)  from ilptcrm.ilptcrm_machined_part;
+SELECT COUNT(*) from ilptcrm.ilptcrm_tool;
+
+
+
+SELECT
+    a.id,
+    a.customer,
+    a.name,
+    a.date,
+    a.place,
+    a.technology,
+    b.id,
+    b.type,
+    b.techn_conditions,
+    b.load_mp,
+    b.requested_roughness,
+    b.workpiece,
+    b.group_mp,
+    b.strength,
+    b.hardness_hb,
+    b.hardness_hrc,
+    b.application_description,
+    c.id,
+    c.cutting_index_insert1,
+    c.cutting_index_insert2,
+    c.chip_breaker1,
+    c.chip_breaker2,
+    c.grade1,
+    c.grade2,
+    c.cutting_speed1,
+    c.cutting_speed2,
+    c.revolution_rpm1,
+    c.revolution_rpm2,
+    c.feed_rev1,
+    c.feed_rev2,
+    c.feed_min1,
+    c.feed_min2,
+    c.feed_tooth1,
+    c.feed_tooth2,
+    c.producer1,
+    c.producer2,
+    c.description1,
+    c.description2,
+    d.id,
+    d.coolant1,
+    d.coolant2,
+    d.surface_quality1,
+    d.surface_quality2,
+    d.cutting_depth1,
+    d.cutting_depth2,
+    d.machine_surface_width1,
+    d.machine_surface_width2,
+    d.thread_pitch1,
+    d.thread_pitch2,
+    d.number_of_infeed1,
+    d.number_of_infeed2,
+    d.cutting_length1,
+    d.cutting_length2,
+    e.id,
+    e.durability_of_edge1,
+    e.durability_of_edge2,
+    e.flank_wear1,
+    e.flank_wear2,
+    e.insert_fracture_fragile1,
+    e.insert_fracture_fragile2,
+    e.durability_pcs1,
+    e.durability_pcs2,
+    e.built_up_edge1,
+    e.built_up_edge2,
+    e.nose_tip_plastic_deformation1,
+    e.nose_tip_plastic_deformation2,
+    e.kind_of_chip1,
+    e.kind_of_chip2,
+    e.rigidity_of_system1,
+    e.rigidity_of_system2,
+
+        f.cost_per_hour,
+        f.work_pcs,
+        f.durability_of_edge1,
+        f.durability_of_edge2,
+        f.durability_pcs1,
+        f.durability_pcs2,
+        f.machine_time1,
+        f.machine_time2,
+        f.tool1,
+        f.tool2,
+        f.tool_cost1,
+        f.tool_cost2,
+        f.no_of_inserts1,
+        f.no_of_inserts2,
+        f.cutting_index_insert1,
+        f.cutting_index_insert2,
+        f.grade1,
+        f.grade2,
+        f.insert_of_cost1,
+        f.insert_of_cost2,
+        f.no_of_cutting_edges1,
+        f.no_of_cutting_edges2,
+        f.tool_cost_cn1,
+        f.tool_cost_cn2,
+        f.tool_exchange_cost1,
+        f.tool_exchange_cost2,
+        f.machining_cost1,
+        f.machining_cost2,
+        f.total_cost1,
+        f.total_cost2,
+        f.savings
+
+FROM
+    ilptcrm_testreport a,
+    ilptcrm_machined_part b,
+    ilptcrm_tool c,
+    ilptcrm_cutting_conditions d,
+    ilptcrm_evaluation e,
+    ilptcrm_spending f
+WHERE
+    a.id = 2 AND
+    b.id = 2 AND
+    c.id = 2 AND
+    d.id = 2 AND
+    e.id = 2 and
+    f.id = 2
+
+
+
+    <br /><b>Notice</b>:  Undefined property: Trialreport::$total_cost1 in
+    <b>/var/www/html/ilptcrm_design/trialreports/edit_trial_report_form.php</b>
+     on line <b>1323</b><br />
