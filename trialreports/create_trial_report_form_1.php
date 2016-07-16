@@ -611,12 +611,14 @@
                     </table>
                 </div>
             </div>
-            <!--Machine-->
+
+
+            <!--Machined Part-->
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
 
-                        <b>Machined</b></a>
+                        <b>Machined Part</b></a>
             </div>
 
             <div id="collapse2" class="panel-collapse collapse in">
@@ -636,27 +638,6 @@
                             <td>Name</td>
                             <td><input type="text" class="form-control" name="name_mp" placeholder=""></td>
 
-                        </tr>
-                    </table>
-                </div>
-            </div>
-
-
-            <!--Machined Part-->
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-
-                        <b>Machined Part</b></a>
-            </div>
-
-            <div id="collapse2" class="panel-collapse collapse in">
-
-                <div class="panel-body">
-
-                    <table class='table table-hover table-responsive '>
-
-                        <tr>
                             <td>Requested Roughness</td>
                             <td>
                                 <select required class="form-control btn-primary dropdown-toggle"
@@ -680,6 +661,8 @@
 
                             <td>Workpiece Mat</td>
                             <td><input type="text" class="form-control" name="workpiece" placeholder=""></td>
+                        </tr>
+                        <tr>
                             <td>Group</td>
                             <td>
                                 <select required class="form-control btn-primary dropdown-toggle" name="group">
@@ -692,14 +675,16 @@
                                     <option value="H">H</option>
                                 </select>
                             </td>
-                        </tr>
-                        <tr>
                             <td>Strength [Mpa]</td>
                             <td><input type="text" class="form-control" name="strength" placeholder=""></td>
                             <td>Hardnerned HB</td>
                             <td><input type="text" class="form-control" name="hardness_hb" placeholder=""></td>
+                        </tr>
+
+                        <tr>
                             <td>Hardnerned HRC</td>
                             <td><input type="text" class="form-control" name="hardness_hrc" placeholder=""></td>
+
                         </tr>
                     </table>
                 </div>
@@ -1248,16 +1233,15 @@
                         <tr>
                             <td>Attachment</td>
                             <td>
-                                <div class=" fileupload fileupload-new" data-provides="fileupload">
-                                    <span class="form-control btn-primary btn-file">
-                                        <span class="fileupload-new">Select file</span>
+                                <div class="fileupload fileupload-new" data-provides="fileupload">
+                                    <span class="form-control btn-primary btn-file"><span
+                                            class="fileupload-new">Select file</span>
                                         <span class="fileupload-exists">Change</span>
-                                        <input id="uploadImage" type="file"  name="attachment"/>
-                                     </span>
+                                        <input id="uploadImage" type="file" name="attachment"/>
+                                    </span>
                                     <span class="fileupload-preview"></span>
                                     <a href="#" class="close fileupload-exists" data-dismiss="fileupload"
                                        style="float: none">×</a>
-
                                 </div>
                             </td>
                             <td>Included Test </td>
@@ -1509,4 +1493,4 @@
 </div>
 
 </body>
-</html><html><head></head><body></body></html>
+</html>

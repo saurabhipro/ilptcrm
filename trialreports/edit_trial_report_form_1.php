@@ -45,9 +45,9 @@ $trial_report->readOne();
 <meta charset="UTF-8">
 <title>ILPT</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <script type="text/javascript" src="../fusioncharts/js/fusioncharts.js"></script>
+<script type="text/javascript" src="../fusioncharts/js/fusioncharts.js"></script>
 <script type="text/javascript" src="../fusioncharts/js/themes/fusioncharts.theme.fint.js"></script>
-<script src="./jquery-1.9.1.js"></script> -->
+<script src="./jquery-1.9.1.js"></script>
 <script src="./jquery.validate.min.js"></script>
 
 
@@ -194,6 +194,7 @@ $trial_report->readOne();
                         <b>Update Trial Report No : <?php echo htmlspecialchars($trial_report->id, ENT_QUOTES); ?> </b></a>
             </div>
 
+
             <div id="collapse1" class="panel-collapse collapse in">
                 <div class="panel-body">
 
@@ -216,7 +217,7 @@ $trial_report->readOne();
                         <tr>
                             <td>Date</td>
                             <td><i class="icon-date"></i>
-                                <input type="date" disabled name="date" value="<?php echo $trial_report->date; ?>"
+                                <input type="date" name="date" value="<?php echo $trial_report->date; ?>"
                                        class="form-control" placeholder="Date"/></td>
                             <td>Technology</td>
                             <td><input type="text" name="technology" value="<?php echo $trial_report->technology; ?>"
@@ -232,10 +233,12 @@ $trial_report->readOne();
                 </div>
             </div>
 
+
+            <!--Machined Part-->
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                        <b>Machine</b></a>
+                        <b>Machined Part</b></a>
             </div>
             <div id="collapse1" class="panel-collapse collapse in">
                 <div class="panel-body">
@@ -257,26 +260,7 @@ $trial_report->readOne();
                             <td>Name</td>
                             <td><input type="text" class="form-control" name="name_mp" placeholder=""
                                        value="<?php echo htmlspecialchars($trial_report->name_mp, ENT_QUOTES); ?>"></td>
-
-                        </tr>
-                    </table>
-                </div>
-            </div>
-
-
-            <!--Machined Part-->
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                        <b>Machined Part</b></a>
-            </div>
-            <div id="collapse1" class="panel-collapse collapse in">
-                <div class="panel-body">
-
-                    <table class='table table-hover table-responsive '>
-
-                        <tr>
-                           <td>Requested Roughness</td>
+                            <td>Requested Roughness</td>
                             <td><input type="text" class="form-control" name="requested_roughness" placeholder=""
                                        value='<?php echo htmlspecialchars($trial_report->requested_roughness, ENT_QUOTES); ?>'>
                             </td>
@@ -284,13 +268,12 @@ $trial_report->readOne();
                             <td><input type="text" class="form-control" name="workpiece" placeholder=""
                                        value='<?php echo htmlspecialchars($trial_report->workpiece, ENT_QUOTES); ?>'>
                             </td>
+                        </tr>
+                        <tr>
                             <td>Group</td>
                             <td><input type="text" class="form-control" name="group_mp" placeholder=""
                                        value='<?php echo htmlspecialchars($trial_report->group_mp, ENT_QUOTES); ?>'>
                             </td>
-                        </tr>
-                        <tr>
-
                             <td>Strength [Mpa]</td>
                             <td><input type="text" class="form-control" name="strength" placeholder=""
                                        value='<?php echo htmlspecialchars($trial_report->strength, ENT_QUOTES); ?>'>
@@ -299,13 +282,12 @@ $trial_report->readOne();
                             <td><input type="text" class="form-control" name="hardness_hb" placeholder=""
                                        value='<?php echo htmlspecialchars($trial_report->hardness_hb, ENT_QUOTES); ?>'>
                             </td>
+                        </tr>
+                        <tr>
                             <td>Hardnerned HRC</td>
                             <td><input type="text" class="form-control" name="hardness_hrc" placeholder=""
                                        value='<?php echo htmlspecialchars($trial_report->hardness_hrc, ENT_QUOTES); ?>'>
                             </td>
-                        </tr>
-                        <tr>
-
                         </tr>
                     </table>
                 </div>
@@ -344,21 +326,20 @@ $trial_report->readOne();
 
                         </tr>
                         <tr class="success">
-                            <td>                                                                          
+                            <td>
                                 <div class="row">
-                                    <div class="col-md-1"> <input type="text" id="c" name="c" class="form-control" value='<?php echo htmlspecialchars($trial_report->c, ENT_QUOTES); ?>'></div>
-
-                                    <div class="col-md-1"> <input type="text" id="mn" name="mn" class="form-control" value='<?php echo htmlspecialchars($trial_report->mn, ENT_QUOTES); ?>'></div>
-                                    <div class="col-md-1"> <input type="text" id="si" name="si" class="form-control" value='<?php echo htmlspecialchars($trial_report->si, ENT_QUOTES); ?>'></div>
-                                    <div class="col-md-1"> <input type="text" id="cr" name="cr" class="form-control" value='<?php echo htmlspecialchars($trial_report->cr, ENT_QUOTES); ?>'></div>
-                                    <div class="col-md-1"> <input type="text" id="ni" name="ni" class="form-control" value='<?php echo htmlspecialchars($trial_report->ni, ENT_QUOTES); ?>'></div>
-                                    <div class="col-md-1"> <input type="text" id="v" name="v" class="form-control" value='<?php echo htmlspecialchars($trial_report->v, ENT_QUOTES); ?>'></div>
-                                    <div class="col-md-1"> <input type="text" id="mo" name="mo" class="form-control" value='<?php echo htmlspecialchars($trial_report->mo, ENT_QUOTES); ?>'></div>
-                                    <div class="col-md-1"> <input type="text" id="w" name="w" class="form-control" value='<?php echo htmlspecialchars($trial_report->w, ENT_QUOTES); ?>'></div>
-                                    <div class="col-md-1"> <input type="text" id="co" name="co" class="form-control" value='<?php echo htmlspecialchars($trial_report->co, ENT_QUOTES); ?>'></div>
-                                    <div class="col-md-1"> <input type="text" id="ti" name="ti" class="form-control" value='<?php echo htmlspecialchars($trial_report->ti, ENT_QUOTES); ?>'></div>
-                                    <div class="col-md-1"> <input type="text" id="fe" name="fe" class="form-control" value='<?php echo htmlspecialchars($trial_report->fe, ENT_QUOTES); ?>'></div>
-                                    <div class="col-md-1"> <input type="text" id="al" name="al" class="form-control" value='<?php echo htmlspecialchars($trial_report->al, ENT_QUOTES); ?>'></div>
+                                    <div class="col-md-1"> <input type="text" id="c" name="c" class="form-control"  value='<?php echo htmlspecialchars($trial_report->c, ENT_QUOTES); ?>'></div>
+                                    <div class="col-md-1"> <input type="text" id="mn" name="mn" class="form-control"  value='<?php echo htmlspecialchars($trial_report->mn, ENT_QUOTES); ?>'></div>
+                                    <div class="col-md-1"> <input type="text" id="si" name="si" class="form-control"  value='<?php echo htmlspecialchars($trial_report->si, ENT_QUOTES); ?>'> </div>
+                                    <div class="col-md-1"> <input type="text" id="cr" name="cr" class="form-control"  value='<?php echo htmlspecialchars($trial_report->cr, ENT_QUOTES); ?>'></div>
+                                    <div class="col-md-1"> <input type="text" id="ni" name="ni" class="form-control"  value='<?php echo htmlspecialchars($trial_report->ni, ENT_QUOTES); ?>'></div>
+                                    <div class="col-md-1"> <input type="text" id="v" name="v" class="form-control"  value='<?php echo htmlspecialchars($trial_report->v, ENT_QUOTES); ?>'></div>
+                                    <div class="col-md-1"> <input type="text" id="mo" name="mo" class="form-control"  value='<?php echo htmlspecialchars($trial_report->mo, ENT_QUOTES); ?>'></div>
+                                    <div class="col-md-1"> <input type="text" id="w" name="w" class="form-control"  value='<?php echo htmlspecialchars($trial_report->w, ENT_QUOTES); ?>'></div>
+                                    <div class="col-md-1"> <input type="text" id="co" name="co" class="form-control"  value='<?php echo htmlspecialchars($trial_report->co, ENT_QUOTES); ?>'></div>
+                                    <div class="col-md-1"> <input type="text" id="ti" name="ti" class="form-control"  value='<?php echo htmlspecialchars($trial_report->ti, ENT_QUOTES); ?>'></div>
+                                    <div class="col-md-1"> <input type="text" id="fe" name="fe" class="form-control"  value='<?php echo htmlspecialchars($trial_report->fe, ENT_QUOTES); ?>'></div>
+                                    <div class="col-md-1"> <input type="text" id="al" name="al" class="form-control"  value='<?php echo htmlspecialchars($trial_report->al, ENT_QUOTES); ?>'></div>
                                 </div>
                             </td>
                         </tr>
@@ -804,7 +785,7 @@ $trial_report->readOne();
             </div>
 
 
-            <!--Evaluation N    otes Successful Stories-->
+            <!--Evaluation Notes Successful Stories-->
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
@@ -851,8 +832,7 @@ $trial_report->readOne();
                             <td>Attachment</td>
                             <td>
                                 <div class="fileupload fileupload-new" data-provides="fileupload">
-                                 <span class="form-control btn-primary btn-file">
-                                     <span class="fileupload-new">Select file</span>
+                                 <span class="btn btn-primary btn-file"><span class="fileupload-new">Select file</span>
                                      <span class="fileupload-exists">Change</span>
                                      <input id="uploadImage" type="file" accept="image/*" name="attachment"/>
                                  </span>
@@ -1353,7 +1333,6 @@ $trial_report->readOne();
 
                             <tr>
                                 <td colspan="6">
-<!--                                     <?php echo (condition) ? 'type="submit"' : ' disabled '; ?> -->
                                     <button type="submit" id='create_submit' name="btn_update" class='btn btn-success'>
                                         <span class='glyphicon glyphicon-info'></span>Update Trial report
                                     </button>

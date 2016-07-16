@@ -37,8 +37,7 @@ class MachinedPart
                 workpiece=:workpiece,
                 group_mp=:group_mp,
                 strength=:strength,
-                hardness_hb=:hardness_hb,
-                hardness_hrc=:hardness_hrc";
+                hardness_hb=:hardness_hb";
 
         $stmt = $this->conn->prepare($query);
         $this->type=htmlspecialchars(strip_tags($this->type));
@@ -50,7 +49,7 @@ class MachinedPart
         $this->group_mp=htmlspecialchars(strip_tags($this->group_mp));
         $this->strength=htmlspecialchars(strip_tags($this->strength));
         $this->hardness_hb=htmlspecialchars(strip_tags($this->hardness_hb));
-        $this->hardness_hrc=htmlspecialchars(strip_tags($this->hardness_hrc));
+        //this->hardness_hrc=htmlspecialchars(strip_tags($this->hardness_hrc));
         // $this->application_description=htmlspecialchars(strip_tags($this->application_description));
 
         $stmt->bindParam(":type", $this->type);
@@ -62,7 +61,7 @@ class MachinedPart
         $stmt->bindParam(":group_mp", $this->group_mp);
         $stmt->bindParam(":strength", $this->strength);
         $stmt->bindParam(":hardness_hb", $this->hardness_hb);
-        $stmt->bindParam(":hardness_hrc", $this->hardness_hrc);
+        // $stmt->bindParam(":hardness_hrc", $this->hardness_hrc);
         // $stmt->bindParam(":application_description", $this->application_description);
 
         if($stmt->execute())
