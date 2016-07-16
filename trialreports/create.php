@@ -4,7 +4,7 @@ ini_set('display_errors', TRUE);
 
 include_once '../config/database.php';
 include_once '../objects/trial_report.php';
-include_once '../objects/machine_part.php';
+include_once '../objects/machine_part_1.php';
 include_once '../objects/tool.php';
 include_once '../objects/cutting_conditions.php';
 include_once '../objects/evaluation.php';

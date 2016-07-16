@@ -3,7 +3,7 @@ ini_set('display_errors', 'On');
 $report_id = isset($_GET['report_id']) ? $_GET['report_id'] : die('ERROR: Trial Report ID not found.');
 include_once '../config/database.php';
 include_once '../objects/trial_report.php';
-include_once '../objects/machine_part.php';
+include_once '../objects/machine_part_1.php';
 include_once '../objects/tool.php';
 include_once '../objects/cutting_conditions.php';
 include_once '../objects/evaluation.php';
