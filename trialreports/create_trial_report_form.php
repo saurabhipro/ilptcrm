@@ -14,7 +14,7 @@
     .label {
         width: 100px;
         text-align: right;
-        float: left;git 
+        float: left;git
         padding-right: 10px;
         font-weight: bold;
     }

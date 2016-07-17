@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44620511-b994-4708-803b-4552e4462a49" name="Default" comment="" />
+    <list default="true" id="44620511-b994-4708-803b-4552e4462a49" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard.php" afterPath="$PROJECT_DIR$/dashboard.php" />
+    </list>
+    <list id="a4fda11a-b33c-4f89-814d-e5118e7a1404" name="Rejected commit: Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trialreports/create_trial_report_form.php" afterPath="$PROJECT_DIR$/trialreports/create_trial_report_form.php" />
+    </list>
     <ignored path="ilptcrm_design.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -35,52 +41,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trialreports/create.php">
+      <file leaf-file-name="edit_trial_report_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trialreports/edit_trial_report_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="486">
+              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tool.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/objects/tool.php">
+      <file leaf-file-name="dashboard.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="353">
+              <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
               <folding>
-                <marker date="1467813695583" expanded="true" signature="1125:1994" placeholder="INSERT INTO ${$this-&gt;table_name}" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#2;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#p#2;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#p#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#4;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#p#4;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trial_report.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/objects/trial_report.php">
+      <file leaf-file-name="machine_part.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/objects/machine_part.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="306">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
-                <marker date="1467863139867" expanded="true" signature="653:816" placeholder="INSERT INTO ${$this-&gt;table_name}" />
-                <marker date="1467863139867" expanded="true" signature="1820:2144" placeholder="SELECT a.id ilptcrm_testreport" />
-                <marker date="1467863139867" expanded="true" signature="2351:6376" placeholder="SELECT a.id,... ilptcrm_testreport" />
-                <marker date="1467863139867" expanded="true" signature="14433:14483" placeholder="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-              <folding>
-                <element signature="e#4201#4247#0#PHP" expanded="true" />
-                <marker date="1467866257327" expanded="true" signature="2024:2126" placeholder="SELECT usern... ilptcrm_user" />
-                <marker date="1467866257327" expanded="true" signature="3651:3672" placeholder="..." />
+                <marker date="1468601892000" expanded="true" signature="553:996" placeholder="INSERT INTO ${$this-&gt;table_name}... " />
               </folding>
             </state>
           </provider>
@@ -114,6 +112,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -152,13 +153,11 @@
         <option value="$PROJECT_DIR$/trialreports/datalist_json.php" />
         <option value="$PROJECT_DIR$/sales/excel.php" />
         <option value="$PROJECT_DIR$/objects/user.php" />
-        <option value="$PROJECT_DIR$/dashboard.php" />
         <option value="$PROJECT_DIR$/sales/create.php" />
         <option value="$PROJECT_DIR$/Spreadsheet/Excel/Writer/Workbook.php" />
         <option value="$PROJECT_DIR$/OLE/PPS/Root.php" />
         <option value="$PROJECT_DIR$/OLE/PPS.php" />
         <option value="$PROJECT_DIR$/excel.php" />
-        <option value="$PROJECT_DIR$/trialreports/create_trial_report_form.php" />
         <option value="$PROJECT_DIR$/trialreports/download_excel/excel.php" />
         <option value="$PROJECT_DIR$/chart_spending.php" />
         <option value="$PROJECT_DIR$/objects/tool.php" />
@@ -169,6 +168,8 @@
         <option value="209.99.16.30" />
         <option value="$PROJECT_DIR$/objects/trial_report.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/trialreports/create_trial_report_form.php" />
+        <option value="$PROJECT_DIR$/dashboard.php" />
       </list>
     </option>
   </component>
@@ -182,9 +183,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="36" />
-    <option name="width" value="1152" />
-    <option name="height" value="803" />
+    <option name="x" value="1150" />
+    <option name="width" value="1604" />
+    <option name="height" value="906" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -193,7 +194,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -229,6 +230,34 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ilptcrm_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ilptcrm_design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialreports" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ilptcrm_design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ilptcrm_design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="objects" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -237,23 +266,39 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="close&#9;ACTION&#9;CloseAllEditors&#10;export_excel&#9;FILE&#9;file:///var/www/html/ilptcrm_design/sales/export_excel.php&#10;sales_excel&#9;FILE&#9;file:///var/www/html/ilptcrm_design/sales/sales_excel_download_form.php&#10;edit&#9;FILE&#9;file:///var/www/html/ilptcrm_design/trialreports/edit_trial_report_form.php&#10;create&#9;FILE&#9;file:///var/www/html/ilptcrm_design/trialreports/create.php&#10;formu&#9;FILE&#9;file:///var/www/html/ilptcrm_design/formulas.txt&#10;header&#9;FILE&#9;file:///var/www/html/ilptcrm_design/header.php&#10;hea&#9;FILE&#9;file:///var/www/html/ilptcrm_design/header.php&#10;SALES&#9;FILE&#9;file:///var/www/html/ilptcrm_design/sales/sales_excel_download_form.php&#10;list_Sa&#9;FILE&#9;file:///var/www/html/ilptcrm_design/sales/list_sale.php&#10;update&#9;FILE&#9;file:///var/www/html/ilptcrm_design/sales/update.php&#10;edit_trial&#9;FILE&#9;file:///var/www/html/ilptcrm_design/trialreports/edit_trial_report_form.php&#10;data&#9;FILE&#9;file:///var/www/html/ilptcrm_design/masters/datalist/list_datalist.php&#10;trial&#9;FILE&#9;file:///var/www/html/ilptcrm_design/objects/trial_report.php&#10;index&#9;FILE&#9;file:///var/www/html/ilptcrm_design/index.php&#10;server&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="dash&#9;FILE&#9;file:///var/www/html/ilptcrm_design/dashboard.php&#10;close&#9;ACTION&#9;CloseAllEditors&#10;export_excel&#9;FILE&#9;file:///var/www/html/ilptcrm_design/sales/export_excel.php&#10;sales_excel&#9;FILE&#9;file:///var/www/html/ilptcrm_design/sales/sales_excel_download_form.php&#10;edit&#9;FILE&#9;file:///var/www/html/ilptcrm_design/trialreports/edit_trial_report_form.php&#10;create&#9;FILE&#9;file:///var/www/html/ilptcrm_design/trialreports/create.php&#10;formu&#9;FILE&#9;file:///var/www/html/ilptcrm_design/formulas.txt&#10;header&#9;FILE&#9;file:///var/www/html/ilptcrm_design/header.php&#10;hea&#9;FILE&#9;file:///var/www/html/ilptcrm_design/header.php&#10;SALES&#9;FILE&#9;file:///var/www/html/ilptcrm_design/sales/sales_excel_download_form.php&#10;list_Sa&#9;FILE&#9;file:///var/www/html/ilptcrm_design/sales/list_sale.php&#10;update&#9;FILE&#9;file:///var/www/html/ilptcrm_design/sales/update.php&#10;edit_trial&#9;FILE&#9;file:///var/www/html/ilptcrm_design/trialreports/edit_trial_report_form.php&#10;data&#9;FILE&#9;file:///var/www/html/ilptcrm_design/masters/datalist/list_datalist.php&#10;trial&#9;FILE&#9;file:///var/www/html/ilptcrm_design/objects/trial_report.php&#10;index&#9;FILE&#9;file:///var/www/html/ilptcrm_design/index.php&#10;server&#9;null&#9;null" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="155" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="165" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="170" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1080" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="155" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="165" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="170" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1080" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="OPEN_URL_DIALOG">
       <recent name="http://209.99.16.30" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/trialreports" />
       <recent name="$PROJECT_DIR$/objects" />
       <recent name="$PROJECT_DIR$/OLE" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Spreadsheet/Excel/Writer" />
-      <recent name="$PROJECT_DIR$/Spreadsheet/Excel" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/masters/user/oldfiles" />
@@ -388,11 +433,13 @@
       <workItem from="1467863026961" duration="3274000" />
       <workItem from="1468504974412" duration="507000" />
       <workItem from="1468547209692" duration="1843000" />
+      <workItem from="1468634566369" duration="2584000" />
+      <workItem from="1468745427981" duration="835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="522230000" />
+    <option name="totallyTimeSpent" value="525649000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,25 +451,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="36" width="1152" height="803" extended-state="0" />
-    <editor active="false" />
+    <frame x="1150" y="0" width="1604" height="906" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22212544" sideWeight="0.49399656" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2325" sideWeight="0.49399656" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2846154" sideWeight="0.4972635" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27411944" sideWeight="0.48631743" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12020906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24812031" sideWeight="0.49399656" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2685069" sideWeight="0.51368254" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24812031" sideWeight="0.50600344" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975095" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967907" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32503113" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -458,6 +506,9 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -471,34 +522,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trialreports/list_trial_report.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trialreports/json.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trialreports/json2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trialreports/download_excel/export_excel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sales/excel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -547,13 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="1109" column="1" selection-start-line="1109" selection-start-column="1" selection-end-line="1109" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -685,7 +701,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objects/machine_part.php">
+    <entry file="file://$PROJECT_DIR$/objects/machine_part_1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -712,7 +728,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trialreports/edit_trial_report_form.php">
+    <entry file="file://$PROJECT_DIR$/trialreports/edit_trial_report_form_1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
@@ -726,7 +742,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trialreports/create_trial_report_form.php">
+    <entry file="file://$PROJECT_DIR$/trialreports/create_trial_report_form_1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="683" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="1495" selection-end-column="7" />
@@ -754,46 +770,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trialreports/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/objects/tool.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <marker date="1467813695583" expanded="true" signature="1125:1994" placeholder="INSERT INTO ${$this-&gt;table_name}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/objects/trial_report.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <marker date="1467863139867" expanded="true" signature="653:816" placeholder="INSERT INTO ${$this-&gt;table_name}" />
-            <marker date="1467863139867" expanded="true" signature="1820:2144" placeholder="SELECT a.id ilptcrm_testreport" />
-            <marker date="1467863139867" expanded="true" signature="2351:6376" placeholder="SELECT a.id,... ilptcrm_testreport" />
-            <marker date="1467863139867" expanded="true" signature="14433:14483" placeholder="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="e#4201#4247#0#PHP" expanded="true" />
-            <marker date="1467866257327" expanded="true" signature="2024:2126" placeholder="SELECT usern... ilptcrm_user" />
-            <marker date="1467866257327" expanded="true" signature="3651:3672" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,6 +793,84 @@
           <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding>
             <element signature="e#7#23#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/machine_part.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <marker date="1468601892000" expanded="true" signature="553:996" placeholder="INSERT INTO ${$this-&gt;table_name}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trialreports/create_trial_report_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="769" column="55" selection-start-line="769" selection-start-column="55" selection-end-line="769" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trialreports/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-666">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/trial_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <marker date="1467863139867" expanded="true" signature="653:816" placeholder="INSERT INTO ${$this-&gt;table_name}" />
+            <marker date="1467863139867" expanded="true" signature="1820:2144" placeholder="SELECT a.id ilptcrm_testreport" />
+            <marker date="1467863139867" expanded="true" signature="2351:6376" placeholder="SELECT a.id,... ilptcrm_testreport" />
+            <marker date="1467863139867" expanded="true" signature="14433:14483" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tatus">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trialreports/edit_trial_report_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#p#2;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#p#3;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#4;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#p#4;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
